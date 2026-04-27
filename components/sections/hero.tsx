@@ -75,7 +75,7 @@ export function Hero() {
                 </motion.span>
               ))}
             </span>
-            <span className="block overflow-hidden italic text-ink/70">
+            <span className="block overflow-hidden text-[8vw] italic leading-tight text-ink/70 md:text-[4.5rem]">
               {LINE_TWO.map((w, i) => (
                 <motion.span key={i} variants={word} className="mr-3 inline-block">
                   {w}
