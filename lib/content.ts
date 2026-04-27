@@ -125,6 +125,11 @@ export const competencies: Array<{
   },
 ];
 
+// First-person value statement on the home page — Andrew's pitch to a
+// prospective client about how he works.
+export const valueStatement =
+  "Serving Houston-area individuals and families, I help clients make confident financial decisions through disciplined planning, clear communication, and a relationship-first approach, turning long-term wealth goals into simple, actionable strategies. Shaped by high-accountability environments, my process is straightforward: listen first, clarify the goal, build a clear plan, and execute with consistency, reducing uncertainty and creating lasting financial security.";
+
 // Closing paragraph for the Core Competencies section — the third-person
 // "elevator pitch" that ties the four competencies together.
 export const competenciesSummary =
