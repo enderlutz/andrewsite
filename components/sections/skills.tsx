@@ -13,7 +13,7 @@ export function Skills() {
   return (
     <section
       id="skills"
-      className="mx-auto max-w-6xl px-6 py-28 md:px-10 md:py-40"
+      className="mx-auto max-w-6xl px-6 pt-10 pb-28 md:px-10 md:pt-16 md:pb-40"
     >
       <div className="grid grid-cols-1 gap-12 md:grid-cols-12">
         <Reveal className="md:col-span-4">

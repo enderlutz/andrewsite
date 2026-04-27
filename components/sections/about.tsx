@@ -17,7 +17,7 @@ export function About() {
       <Reveal as="h1" className="display mb-12 text-5xl md:text-8xl">
         The short version of
         <br />
-        a <span className="italic">long</span> curiosity.
+        a <span className="italic">long</span> journey.
       </Reveal>
 
       <div className="grid grid-cols-1 gap-10 md:grid-cols-12 md:gap-12">

@@ -90,8 +90,9 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.9 }}
             className="mt-8 max-w-lg text-base leading-relaxed text-ink/75 md:text-lg"
           >
-            Out of the Army, onto the sales floor. Building toward a career at
-            the intersection of capital, people, and the smart bets in between.
+            Supporting Houstonians seeking an aspiring financial professional
+            who communicates clearly, builds trust, and delivers actionable
+            guidance for long-term wealth goals.
           </motion.p>
 
           <motion.div

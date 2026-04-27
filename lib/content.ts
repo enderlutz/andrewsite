@@ -128,7 +128,7 @@ export const competencies: Array<{
 // Closing paragraph for the Core Competencies section — the third-person
 // "elevator pitch" that ties the four competencies together.
 export const competenciesSummary =
-  "Andrew blends disciplined leadership with sharp analysis and a genuinely relationship-first approach. With experience across wealth management, military service, and professional sales, he brings strategic perspective—but, more importantly, he acts on it, turning ideas into measurable results. He's hands-on in applying business concepts in real-world settings, whether that means strengthening client relationships, uncovering revenue opportunities, or improving operational efficiency. What sets Andrew apart is how clearly he communicates value, how quickly he adapts, and how consistently he leads with accountability. He raises the standard for the teams and organizations around him.";
+  "Andrew blends disciplined leadership with sharp analysis and a genuinely relationship-first approach. With experience across wealth management, military service, and professional sales, he brings strategic perspective. But more importantly, he acts on it, turning ideas into measurable results. He's hands-on in applying business concepts in real-world settings, whether that means strengthening client relationships, uncovering revenue opportunities, or improving operational efficiency. What sets Andrew apart is how clearly he communicates value, how quickly he adapts, and how consistently he leads with accountability. He raises the standard for the teams and organizations around him.";
 
 // Big animated numbers on the landing page — keep to 4 for balance.
 // `to` is the end value of the count-up; `prefix`/`suffix` wrap it.

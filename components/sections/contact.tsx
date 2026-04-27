@@ -91,7 +91,7 @@ export function Contact() {
           </Reveal>
           <Reveal delay={0.05}>
             <p className="mb-8 max-w-xl text-sm text-ink/60">
-              Start typing in either one — the other folds out of the way.
+              Start typing in either one. The other folds out of the way.
             </p>
           </Reveal>
           <Reveal delay={0.1}>
