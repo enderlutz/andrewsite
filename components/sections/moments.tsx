@@ -22,7 +22,7 @@ const LAYOUT: Array<{
 
 export function Moments() {
   return (
-    <section className="mx-auto max-w-6xl px-6 py-28 md:px-10 md:py-40">
+    <section className="mx-auto max-w-6xl px-6 pt-12 pb-28 md:px-10 md:pt-16 md:pb-40">
       <Reveal className="mb-3 text-xs font-medium uppercase tracking-[0.2em] text-ink/60">
         Gallery
       </Reveal>

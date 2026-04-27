@@ -6,7 +6,7 @@ import { pullQuote, skillsMarquee } from "@/lib/content";
 
 export function PullQuote() {
   return (
-    <section className="relative overflow-hidden py-28 md:py-40">
+    <section className="relative overflow-hidden pt-28 pb-12 md:pt-40 md:pb-16">
       {/* Single subtle marquee at the foot of the section — just enough
           motion to feel alive without competing with the quote. */}
       <Marquee

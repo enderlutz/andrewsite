@@ -20,9 +20,9 @@ export const site = {
 };
 
 export const backstory = [
-  "Andrew started his career in uniform — a U.S. Army Reserves Team Leader since 2020, leading squads under pressure, training 40+ soldiers on classified SCIF protocols, and stewarding $100K+ in equipment with zero loss. The discipline stuck: show up early, own the standard, and let the numbers tell the truth.",
-  "At the University of Houston he picked finance for the rigor and added the Program for Excellence in Selling because the same instincts — listen first, build trust, follow through — carried over directly. Today he's a Wealth Management Intern at Luminate, a Student Sales Representative through PES, and the elected Chapter President of Tau Kappa Epsilon, leading 100+ members and a $100K+ budget.",
-  "Houston-based and graduating Fall 2026, Andrew is aiming for the intersection of capital and people — wealth management, financial advisory, and high-touch B2B sales roles where military discipline and finance execution actually compound.",
+  "Andrew started his career in uniform, a U.S. Army Reserves Team Leader since 2020, leading squads under pressure, training 40+ soldiers on classified SCIF protocols, and stewarding $100K+ in equipment with zero loss. The discipline stuck: show up early, own the standard, and let the numbers tell the truth.",
+  "At the University of Houston he picked finance for the rigor and added the Program for Excellence in Selling because the same instincts (listen first, build trust, follow through) carried over directly. Today he's a Wealth Management Intern at Luminate, a Student Sales Representative through PES, and the elected Chapter President of Tau Kappa Epsilon, leading 100+ members and a $100K+ budget.",
+  "Houston-based and graduating Fall 2026, Andrew is aiming for the intersection of capital and people: wealth management, financial advisory, and high-touch B2B sales roles where military discipline and finance execution actually compound.",
 ];
 
 export const stats: Array<{ value: string; label: string }> = [
@@ -95,7 +95,7 @@ export const education: Array<{
 ];
 
 export const pullQuote =
-  "I don't sell products. I help people see a better version of their future — then I show them the math.";
+  "I don't sell products. I help people see a better version of their future: then I show them the math.";
 
 // High-level "what I bring" statements for the landing page.
 // Keep to 4 — each should be something he could defend in an interview.
@@ -191,10 +191,10 @@ export const images = {
   moments: [             // /public/images/moment-1.jpg … moment-6.jpg
     { src: "", caption: "Campus — the sales lab" },
     { src: "", caption: "Pitch night" },
-    { src: "", caption: "Team offsite" },
+    { src: "/images/moment-3.jpg", caption: "First Week in PES" },
     { src: "", caption: "First internship" },
     { src: "", caption: "Networking event" },
-    { src: "", caption: "Coffee, always" },
+    { src: "/images/moment-6.jpg", caption: "Awarding Ceremony" },
   ],
   // Home page teaser tiles — one image per page link.
   teasers: {
