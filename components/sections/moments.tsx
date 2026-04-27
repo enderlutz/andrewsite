@@ -31,7 +31,7 @@ export function Moments() {
       </Reveal>
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-12 md:gap-6">
-        {images.moments.map((m, i) => {
+        {images.moments.filter((m) => m.src).map((m, i) => {
           const layout = LAYOUT[i] ?? LAYOUT[0];
           return (
             <motion.figure
