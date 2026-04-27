@@ -106,12 +106,12 @@ export const competencies: Array<{
   {
     title: "Client Relationship Management",
     description:
-      "Using CRM systems like Salesforce to track interactions, manage pipelines, and organize data — sharper sales efficiency and durable client retention.",
+      "Using CRM systems like Salesforce to track interactions, manage pipelines, and organize data for sharper sales efficiency and durable client retention.",
   },
   {
     title: "Financial Services",
     description:
-      "Investment planning, wealth management, and financial advisory work — helping individuals and businesses actually hit their goals, not just talk about them.",
+      "Investment planning, wealth management, and financial advisory work that helps individuals and businesses actually hit their goals, not just talk about them.",
   },
   {
     title: "Risk Management & Operations",
@@ -121,7 +121,7 @@ export const competencies: Array<{
   {
     title: "Strategic Communication",
     description:
-      "Using messaging deliberately — to influence decisions, build relationships, and align stakeholders around a desired outcome.",
+      "Using messaging deliberately to influence decisions, build relationships, and align stakeholders around a desired outcome.",
   },
 ];
 
