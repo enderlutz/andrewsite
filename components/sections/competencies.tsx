@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Reveal } from "@/components/reveal";
-import { competencies } from "@/lib/content";
+import { competencies, competenciesSummary } from "@/lib/content";
 
 export function Competencies() {
   return (
@@ -25,6 +25,11 @@ export function Competencies() {
         </div>
 
         <div className="md:col-span-8">
+          <Reveal delay={0.05} className="mb-10 md:mb-14">
+            <p className="max-w-2xl text-base leading-relaxed text-ink/75 md:text-lg">
+              {competenciesSummary}
+            </p>
+          </Reveal>
           <div className="border-t border-ink/20">
             {competencies.map((c, i) => (
               <Reveal key={c.title} delay={i * 0.08}>

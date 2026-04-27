@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import { Reveal, Stagger, StaggerItem } from "@/components/reveal";
 import { highlights } from "@/lib/content";
-import { Sparkles } from "lucide-react";
 
 export function Highlights() {
   return (
@@ -59,8 +58,7 @@ export function Highlights() {
                 </p>
 
                 <div className="mt-auto pt-6">
-                  <span className="inline-flex items-center gap-2 rounded-full border border-accent/40 bg-accent/10 px-3 py-1.5 text-xs font-medium text-accent">
-                    <Sparkles className="h-3.5 w-3.5" />
+                  <span className="inline-flex items-center rounded-full border border-accent/40 bg-accent/10 px-3 py-1.5 text-xs font-medium text-accent">
                     {h.metric}
                   </span>
                 </div>
