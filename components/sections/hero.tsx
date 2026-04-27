@@ -111,15 +111,13 @@ export function Hero() {
               </button>
             </Magnetic>
             <Magnetic>
-              <a
+              <Link
                 href={site.portfolioUrl}
-                target="_blank"
-                rel="noreferrer"
                 data-cursor="open"
                 className="inline-flex items-center gap-2 rounded-full border border-ink/20 bg-cream px-5 py-3 text-sm font-medium text-ink transition-colors hover:border-ink"
               >
                 <FolderOpen className="h-4 w-4" /> Portfolio
-              </a>
+              </Link>
             </Magnetic>
             <Magnetic>
               <a

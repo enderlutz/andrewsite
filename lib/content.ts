@@ -8,7 +8,7 @@ export const site = {
   email: "tba@example.com",
   phone: "(570) 974-3489",
   resumeUrl: "/resume.pdf",
-  portfolioUrl: "/portfolio.pdf",
+  portfolioUrl: "/portfolio",
   linkedinUrl:
     "https://linkedin.com/in/andrewbieh-mintah?skipRedirect=true&miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAE5hf4MBAf6MbmZXJyFV-IRicd5KwfP1YCw",
 
@@ -208,3 +208,12 @@ export const images = {
     contact: "/images/teaser-contact.png",
   },
 };
+
+// Portfolio pages — drop portfolio-1.png … portfolio-N.png into /public.
+export const portfolio = [
+  "/portfolio-1.png",
+  "/portfolio-2.png",
+  "/portfolio-3.png",
+  "/portfolio-4.png",
+  "/portfolio-5.png",
+];
