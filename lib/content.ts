@@ -200,7 +200,7 @@ export const images = {
   contactHero: "",       // /public/images/contact.jpg  — optional bg on /contact
   moments: [             // /public/images/moment-1.jpg … moment-6.jpg
     { src: "", caption: "Campus — the sales lab" },
-    { src: "", caption: "Pitch night" },
+    { src: "/images/moment-2.jpeg", caption: "PES Golf Tournament" },
     { src: "/images/moment-3.jpg", caption: "First Week in PES" },
     { src: "", caption: "First internship" },
     { src: "/images/moment-5.jpg", caption: "Fraternity Awards from National Headquarters" },
