@@ -5,7 +5,7 @@ import { portfolio } from "@/lib/content";
 
 export function PortfolioGallery() {
   return (
-    <section className="mx-auto max-w-5xl px-6 py-28 md:px-10 md:py-40">
+    <section className="mx-auto max-w-5xl px-6 pt-10 pb-28 md:px-10 md:pt-16 md:pb-40">
       <Reveal>
         <div className="text-xs font-medium uppercase tracking-[0.2em] text-ink/60">
           Portfolio

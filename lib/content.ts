@@ -193,7 +193,7 @@ export const images = {
     { src: "", caption: "Pitch night" },
     { src: "/images/moment-3.jpg", caption: "First Week in PES" },
     { src: "", caption: "First internship" },
-    { src: "", caption: "Networking event" },
+    { src: "/images/moment-5.jpg", caption: "Fraternity Awards from National Headquarters" },
     { src: "/images/moment-6.jpg", caption: "Awarding Ceremony" },
   ],
   // Home page teaser tiles — one image per page link.
