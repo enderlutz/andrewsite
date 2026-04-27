@@ -1,9 +1,10 @@
 "use client";
 
+import Image from "next/image";
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { Reveal } from "@/components/reveal";
-import { education } from "@/lib/content";
+import { education, images } from "@/lib/content";
 
 export function Education() {
   const timelineRef = useRef<HTMLDivElement>(null);
@@ -14,9 +15,24 @@ export function Education() {
   const lineHeight = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
 
   return (
+    <>
+      {/* Full-bleed campus banner — gradient at the bottom melts the photo
+          into the dark page background. */}
+      <div className="relative aspect-[16/6] w-full overflow-hidden">
+        <Image
+          src={images.educationBanner}
+          alt="University of Houston campus"
+          fill
+          sizes="100vw"
+          priority
+          className="object-cover"
+        />
+        <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-b from-transparent to-cream" />
+      </div>
+
     <section
       id="education"
-      className="mx-auto max-w-6xl px-6 py-28 md:px-10 md:py-40"
+      className="mx-auto max-w-6xl px-6 pt-12 pb-28 md:px-10 md:pt-16 md:pb-40"
     >
       <div className="grid grid-cols-1 gap-12 md:grid-cols-12">
         <Reveal className="md:col-span-4">
@@ -76,6 +92,7 @@ export function Education() {
           </div>
         </div>
       </div>
-    </section>
+      </section>
+    </>
   );
 }

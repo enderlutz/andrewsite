@@ -206,6 +206,8 @@ export const images = {
     { src: "/images/moment-5.jpg", caption: "Fraternity Awards from National Headquarters" },
     { src: "/images/moment-6.jpg", caption: "Awarding Ceremony" },
   ],
+  // Education page banner — full-bleed campus shot above the timeline.
+  educationBanner: "/images/uh-campus.jpeg",
   // Home page teaser tiles — one image per page link.
   teasers: {
     about: "/images/teaser-about.png",
