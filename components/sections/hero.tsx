@@ -10,7 +10,7 @@ import { useResume } from "@/components/resume-viewer";
 import { images, site } from "@/lib/content";
 
 const LINE_ONE = ["Andrew", "Bieh-", "Mintah."];
-const LINE_TWO = ["Finance", "brain.", "Sales", "instinct."];
+const LINE_TWO = ["Military", "Discipline.", "Finance", "Execution."];
 
 const parent = {
   hidden: {},

@@ -6,7 +6,7 @@ export const metadata = {
 
 export default function PortfolioPage() {
   return (
-    <div className="inverted min-h-screen pt-20">
+    <div className="pt-20">
       <PortfolioGallery />
     </div>
   );

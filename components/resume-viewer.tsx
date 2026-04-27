@@ -94,7 +94,7 @@ function ResumeModal({
           <button
             aria-label="Close resume"
             onClick={onClose}
-            className="absolute inset-0 h-full w-full cursor-default bg-ink/75 backdrop-blur-sm"
+            className="absolute inset-0 h-full w-full cursor-default bg-black/75 backdrop-blur-sm"
           />
 
           {/* Card */}
@@ -123,7 +123,7 @@ function ResumeModal({
             <iframe
               src={`${site.resumeUrl}#toolbar=1&navpanes=0&view=FitH`}
               title={`Resume for ${site.name}`}
-              className="w-full flex-1 bg-ink/5"
+              className="w-full flex-1 bg-cream/5"
             />
 
             {/* Action bar */}

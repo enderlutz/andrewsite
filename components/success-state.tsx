@@ -62,7 +62,7 @@ export function SuccessState({
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.4, duration: 0.5 }}
-        className="mt-3 max-w-sm text-sm text-cream/70"
+        className="mt-3 max-w-sm text-sm text-ink/70"
       >
         {description}
       </motion.p>
@@ -83,7 +83,7 @@ export function SuccessState({
           animate={{ opacity: 1 }}
           transition={{ delay: 0.7, duration: 0.5 }}
           onClick={onReset}
-          className="mt-8 text-xs uppercase tracking-wider text-cream/50 underline decoration-dotted underline-offset-4 transition-colors hover:text-accent"
+          className="mt-8 text-xs uppercase tracking-wider text-ink/50 underline decoration-dotted underline-offset-4 transition-colors hover:text-accent"
         >
           {resetLabel}
         </motion.button>

@@ -2,10 +2,10 @@
 
 export const site = {
   name: "Andrew Bieh-Mintah",
-  role: "Student Sales Professional",
-  tagline: "Finance brain. Sales instinct.",
-  location: "United States",
-  email: "tba@example.com",
+  role: "Finance Student & Wealth Management Intern",
+  tagline: "Military Discipline. Finance Execution.",
+  location: "Houston, TX",
+  email: "andrewbiehmintahtx@gmail.com",
   phone: "(570) 974-3489",
   resumeUrl: "/resume.pdf",
   portfolioUrl: "/portfolio",
@@ -15,62 +15,63 @@ export const site = {
   // Contact page — swap the heading and footer line without touching the component.
   contactTitle: "Say hello.",
   contactIntro:
-    "Currently open to finance internships, sales roles, and any excuse to nerd out about good businesses. The inbox is always on.",
+    "Currently open to wealth management, financial advisory, and high-touch B2B sales roles. Always up for a good conversation about capital, people, or how the two compound. The inbox is always on.",
   footerNote: "Always following up.",
 };
 
 export const backstory = [
-  "Before college, Andrew spent his first adult years in the U.S. Army. The structure stuck: show up early, own your mistakes, and do the hard thing before anyone asks.",
-  "Finance was the obvious major when he got out — numbers had always been the part of the world he could read most clearly. Sales was the surprise. An internship his sophomore year showed him the mechanics weren't so different from what he'd already been doing in uniform: listen more than you talk, build trust with people who don't have time to spare, and never confuse activity with progress.",
-  "Today he's equal parts spreadsheet and showroom — modeling deal economics by day, sharpening his pitch by night. After graduation he's aiming for the intersection of capital and people: investor relations, high-touch B2B sales, or a growth role at an early-stage fintech that rewards someone equally comfortable with rigor and pressure.",
+  "Andrew started his career in uniform — a U.S. Army Reserves Team Leader since 2020, leading squads under pressure, training 40+ soldiers on classified SCIF protocols, and stewarding $100K+ in equipment with zero loss. The discipline stuck: show up early, own the standard, and let the numbers tell the truth.",
+  "At the University of Houston he picked finance for the rigor and added the Program for Excellence in Selling because the same instincts — listen first, build trust, follow through — carried over directly. Today he's a Wealth Management Intern at Luminate, a Student Sales Representative through PES, and the elected Chapter President of Tau Kappa Epsilon, leading 100+ members and a $100K+ budget.",
+  "Houston-based and graduating Fall 2026, Andrew is aiming for the intersection of capital and people — wealth management, financial advisory, and high-touch B2B sales roles where military discipline and finance execution actually compound.",
 ];
 
 export const stats: Array<{ value: string; label: string }> = [
-  { value: "Army", label: "U.S. veteran" },
-  { value: "3+", label: "Years in sales roles" },
-  { value: "2", label: "Finance internships" },
-  { value: "$0→1", label: "Startup GTM experience" },
+  { value: "5+", label: "Years U.S. Army Reserves" },
+  { value: "100+", label: "Members led at TKE" },
+  { value: "$90K+", label: "Raised for St. Jude" },
+  { value: "40+", label: "Soldiers trained" },
 ];
 
 export const skills = {
   finance: [
-    "Financial modeling",
-    "DCF & comps valuation",
-    "Three-statement modeling",
+    "Wealth management",
+    "Financial planning",
+    "Asset allocation",
+    "Tax-efficient planning",
+    "Investment fundamentals",
     "Excel / Google Sheets",
-    "Bloomberg Terminal",
-    "Equity research fundamentals",
   ],
   sales: [
+    "Consultative selling (SPIN)",
+    "Cold outreach & prospecting",
     "Discovery & qualification",
-    "Objection handling",
-    "Pipeline management (HubSpot)",
-    "Cold outreach that converts",
-    "Deal negotiation",
-    "Account mapping",
+    "Salesforce CRM",
+    "Pipeline management",
+    "Live sales training",
   ],
   other: [
+    "Risk management & compliance",
+    "Strategic planning",
+    "Budget management",
     "Public speaking",
-    "Stakeholder communication",
-    "SQL basics",
-    "Notion / Airtable power user",
-    "Pitch deck design",
+    "Executive leadership",
+    "Team training",
   ],
 };
 
 export const skillsMarquee = [
-  "Financial Modeling",
-  "B2B Sales",
-  "DCF Valuation",
-  "Pipeline Strategy",
-  "Bloomberg",
+  "Wealth Management",
+  "Consultative Selling",
+  "Salesforce",
   "Cold Outreach",
-  "Excel",
-  "Deal Negotiation",
-  "Investor Relations",
-  "Growth",
-  "Pitch Decks",
-  "HubSpot",
+  "Risk Management",
+  "Financial Planning",
+  "SPIN Selling",
+  "Asset Allocation",
+  "Pipeline Management",
+  "Strategic Leadership",
+  "Compliance",
+  "Live Sales Training",
 ];
 
 export const education: Array<{
@@ -80,21 +81,16 @@ export const education: Array<{
   highlights: string[];
 }> = [
   {
-    school: "Your University",
-    credential: "B.S. in Finance, Minor in Sales",
-    period: "Expected 2026",
+    school: "University of Houston",
+    credential:
+      "Bachelor of Business Administration in Finance — Program for Excellence in Selling",
+    period: "Expected Graduation Fall 2026",
     highlights: [
-      "GPA: 3.X / 4.0",
-      "Dean's List (multiple semesters)",
-      "President, Tau Kappa Epsilon (Spring 2025 — Fall 2026)",
-      "Finance & Investment Society",
+      "Coursework: Live Sales Training, Financial Markets, Investments, Economics, Business Analytics",
+      "Chapter President, Tau Kappa Epsilon (Fall 2025 — Fall 2026)",
+      "Risk Management Officer, Tau Kappa Epsilon (Spring 2024 — Fall 2025)",
+      "Charles R. Walgreen Jr. TKE Leadership Academy (Summer 2026)",
     ],
-  },
-  {
-    school: "Your High School",
-    credential: "High School Diploma",
-    period: "Graduated 20XX",
-    highlights: ["Honor roll", "Student government", "Varsity athlete"],
   },
 ];
 
@@ -108,24 +104,24 @@ export const competencies: Array<{
   description: string;
 }> = [
   {
-    title: "Strategic selling",
+    title: "Client Relationship Management",
     description:
-      "Discovery, qualification, and close — with a focus on helping buyers see real outcomes, not just features.",
+      "Using CRM systems like Salesforce to track interactions, manage pipelines, and organize data — sharper sales efficiency and durable client retention.",
   },
   {
-    title: "Financial rigor",
+    title: "Financial Services",
     description:
-      "DCF, comps, and three-statement modeling — plus the judgment to tell when the number in the cell is lying.",
+      "Investment planning, wealth management, and financial advisory work — helping individuals and businesses actually hit their goals, not just talk about them.",
   },
   {
-    title: "Client communication",
+    title: "Risk Management & Operations",
     description:
-      "Translating spreadsheet math into language the room actually wants to hear. Equally comfortable in a pitch and in a board review.",
+      "Identifying, assessing, and mitigating risk while keeping day-to-day operations efficient and compliant. Drawn from military protocols and chapter-level execution.",
   },
   {
-    title: "Pipeline discipline",
+    title: "Strategic Communication",
     description:
-      "Clean CRM hygiene, accurate forecasting, and the habit of following up when other people don't.",
+      "Using messaging deliberately — to influence decisions, build relationships, and align stakeholders around a desired outcome.",
   },
 ];
 
@@ -137,13 +133,13 @@ export const quickNumbers: Array<{
   suffix?: string;
   label: string;
 }> = [
-  { to: 140, suffix: "%", label: "Of quota as intern" },
-  { to: 3, suffix: "+", label: "Years in sales roles" },
-  { to: 12, suffix: "+", label: "Deals closed in sim" },
-  { to: 2, label: "Finance internships" },
+  { prefix: "$", to: 90, suffix: "K+", label: "Raised for St. Jude" },
+  { to: 100, suffix: "+", label: "Members led at TKE" },
+  { to: 40, suffix: "+", label: "Soldiers trained" },
+  { to: 5, suffix: "+", label: "Years military service" },
 ];
 
-// Featured experiences / wins for the landing page. Replace with truth.
+// Featured experiences / wins for the landing page.
 export const highlights: Array<{
   period: string;
   org: string;
@@ -152,36 +148,36 @@ export const highlights: Array<{
   metric: string;
 }> = [
   {
-    period: "Summer 2025",
-    org: "State Farm",
-    title: "Top Performer, Summer Sales Internship",
+    period: "Jan 2026 — Present",
+    org: "Luminate Wealth Management",
+    title: "Wealth Management Intern",
     description:
-      "Finished the summer at 140% of quota and first among 12 interns on close rate. Built a call-script A/B test that the team kept using after I left.",
-    metric: "140% of quota",
+      "Supporting advisors with client service, account maintenance, and CRM operations. Sitting in on portfolio discussions and learning asset allocation and tax-efficient planning inside a working wealth management office.",
+    metric: "Active internship",
   },
   {
-    period: "Spring 2025 — Fall 2026",
+    period: "Fall 2025 — Fall 2026",
     org: "Tau Kappa Epsilon",
     title: "Chapter President",
     description:
-      "Leading chapter operations across a four-semester term — exec board, recruitment, philanthropy, academic standards, and campus presence.",
-    metric: "4-semester term",
+      "Elected to lead a 100+ member chapter — overseeing a $100K+ budget, recruitment, philanthropy, and operations. Raised $90K+ for St. Jude during the term and represents the chapter to university and national leadership.",
+    metric: "$90K+ for St. Jude",
   },
   {
-    period: "Spring 2025",
-    org: "NCSC Regional",
-    title: "Top 10 — National Collegiate Sales Competition",
+    period: "Jan 2024 — Present",
+    org: "Program for Excellence in Selling",
+    title: "Student Sales Representative",
     description:
-      "Represented the university in the regional round of the largest collegiate sales competition in North America. Lost the gold on a 3-point rubric margin.",
-    metric: "Top 10 finalist",
+      "Live sales training using SPIN-based consultative methods. Cold outreach, discovery conversations, and Salesforce-tracked pipeline. Helped deliver the 2026 PES Open through sponsor acquisition and event coordination.",
+    metric: "2+ years live training",
   },
   {
-    period: "Ongoing",
-    org: "Finance & Investment Society",
-    title: "Consumer Discretionary Analyst",
+    period: "Aug 2020 — Present",
+    org: "U.S. Army Reserves",
+    title: "Team Leader, Corporal",
     description:
-      "Lead coverage on a $4B category; presented a long thesis to the club portfolio committee. Pitch got picked up for paper-portfolio deployment.",
-    metric: "$4B coverage",
+      "Leading squads under high-pressure conditions. Trained 40+ soldiers on classified SCIF access protocols, stewarded $100K+ in military equipment with zero loss, and ranked Top 25% in the 2000th MP Command Best Warrior Competition.",
+    metric: "Top 25% Best Warrior",
   },
 ];
 
@@ -189,7 +185,7 @@ export const highlights: Array<{
 // Drop real files into /public/images/ and set the path here. An empty string
 // renders a styled placeholder so the site never looks broken.
 export const images = {
-  portrait: "/images/portrait.png",  // big hero headshot
+  portrait: "/images/portrait.jpeg",  // big hero headshot
   aboutPortrait: "/images/about.jpg",
   contactHero: "",       // /public/images/contact.jpg  — optional bg on /contact
   moments: [             // /public/images/moment-1.jpg … moment-6.jpg

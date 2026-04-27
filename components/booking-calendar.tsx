@@ -149,16 +149,16 @@ export function BookingCalendar({
       monthStart.getMonth() > today.getMonth());
 
   return (
-    <div className="overflow-hidden rounded-2xl border border-cream/15 bg-cream/[0.02] shadow-subtle">
+    <div className="overflow-hidden rounded-2xl border border-ink/15 bg-ink/[0.02] shadow-subtle">
       {/* Compact top header with event info */}
-      <div className="border-b border-cream/10 p-5 md:p-6">
+      <div className="border-b border-ink/10 p-5 md:p-6">
         <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
           <div className="flex items-center gap-3">
             <div className="flex h-9 w-9 items-center justify-center rounded-full bg-accent/20 font-display text-base text-accent">
               A
             </div>
             <div>
-              <div className="text-[11px] font-medium uppercase tracking-[0.15em] text-cream/50">
+              <div className="text-[11px] font-medium uppercase tracking-[0.15em] text-ink/50">
                 {name}
               </div>
               <div className="font-display text-lg leading-tight">
@@ -166,7 +166,7 @@ export function BookingCalendar({
               </div>
             </div>
           </div>
-          <div className="ml-auto flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-cream/65">
+          <div className="ml-auto flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-ink/65">
             <span className="flex items-center gap-1.5">
               <Clock className="h-3.5 w-3.5 text-accent" /> 30 min
             </span>
@@ -184,16 +184,16 @@ export function BookingCalendar({
           <motion.div
             initial={{ opacity: 0, y: -4 }}
             animate={{ opacity: 1, y: 0 }}
-            className="mt-4 flex flex-wrap items-center gap-2 rounded-lg border border-cream/10 bg-cream/[0.02] px-3 py-2 text-xs"
+            className="mt-4 flex flex-wrap items-center gap-2 rounded-lg border border-ink/10 bg-ink/[0.02] px-3 py-2 text-xs"
           >
-            <span className="font-medium uppercase tracking-[0.15em] text-cream/50">
+            <span className="font-medium uppercase tracking-[0.15em] text-ink/50">
               Selected
             </span>
-            <span className="text-cream">{formatLongDate(selectedDate)}</span>
+            <span className="text-ink">{formatLongDate(selectedDate)}</span>
             {selectedTime && (
               <>
-                <span className="text-cream/40">·</span>
-                <span className="text-cream">{selectedTime}</span>
+                <span className="text-ink/40">·</span>
+                <span className="text-ink">{selectedTime}</span>
               </>
             )}
           </motion.div>
@@ -206,13 +206,13 @@ export function BookingCalendar({
           {step === "date" && (
             <StepWrap key="date">
               <div className="mb-4 flex items-center justify-between">
-                <h4 className="text-sm font-medium text-cream">Select a Date</h4>
+                <h4 className="text-sm font-medium text-ink">Select a Date</h4>
                 <div className="flex items-center gap-2">
                   <button
                     onClick={prevMonth}
                     disabled={!monthCanGoBack}
                     aria-label="Previous month"
-                    className="rounded-full border border-cream/15 p-1.5 text-cream transition-colors enabled:hover:border-accent disabled:cursor-not-allowed disabled:opacity-30"
+                    className="rounded-full border border-ink/15 p-1.5 text-ink transition-colors enabled:hover:border-accent disabled:cursor-not-allowed disabled:opacity-30"
                   >
                     <ChevronLeft className="h-4 w-4" />
                   </button>
@@ -223,14 +223,14 @@ export function BookingCalendar({
                   <button
                     onClick={nextMonth}
                     aria-label="Next month"
-                    className="rounded-full border border-cream/15 p-1.5 text-cream transition-colors hover:border-accent"
+                    className="rounded-full border border-ink/15 p-1.5 text-ink transition-colors hover:border-accent"
                   >
                     <ChevronRight className="h-4 w-4" />
                   </button>
                 </div>
               </div>
 
-              <div className="grid grid-cols-7 text-center text-[10px] font-medium uppercase tracking-wider text-cream/50">
+              <div className="grid grid-cols-7 text-center text-[10px] font-medium uppercase tracking-wider text-ink/50">
                 {WEEKDAYS.map((w) => (
                   <div key={w} className="py-2">
                     {w}
@@ -248,13 +248,13 @@ export function BookingCalendar({
                       disabled={!d.isAvailable}
                       className={cn(
                         "relative flex aspect-square items-center justify-center rounded-full text-sm transition-colors",
-                        !d.isCurrentMonth && "text-cream/20",
+                        !d.isCurrentMonth && "text-ink/20",
                         d.isCurrentMonth &&
                           d.isAvailable &&
-                          "bg-cream/[0.04] font-medium text-cream hover:bg-accent hover:text-cream",
-                        d.isCurrentMonth && !d.isAvailable && "text-cream/25",
+                          "bg-ink/[0.04] font-medium text-ink hover:bg-accent hover:text-ink",
+                        d.isCurrentMonth && !d.isAvailable && "text-ink/25",
                         d.isToday && "ring-1 ring-inset ring-accent",
-                        isSelected && "bg-accent text-cream hover:bg-accent",
+                        isSelected && "bg-accent text-ink hover:bg-accent",
                       )}
                     >
                       {d.date.getDate()}
@@ -274,7 +274,7 @@ export function BookingCalendar({
               <h4 className="mt-3 text-sm font-medium">
                 {formatLongDate(selectedDate)}
               </h4>
-              <p className="text-xs text-cream/50">Pick a time</p>
+              <p className="text-xs text-ink/50">Pick a time</p>
 
               <div className="mt-5 grid max-h-[380px] grid-cols-2 gap-2 overflow-y-auto pr-2 sm:grid-cols-3">
                 {timeSlots.map((t) => {
@@ -286,8 +286,8 @@ export function BookingCalendar({
                         className={cn(
                           "w-full rounded-lg border px-3 py-3 text-sm font-medium transition-all",
                           selected
-                            ? "border-accent bg-accent/15 text-cream"
-                            : "border-cream/20 bg-cream/[0.02] text-cream hover:border-accent",
+                            ? "border-accent bg-accent/15 text-ink"
+                            : "border-ink/20 bg-ink/[0.02] text-ink hover:border-accent",
                         )}
                       >
                         {t}
@@ -297,7 +297,7 @@ export function BookingCalendar({
                           initial={{ opacity: 0, x: -6 }}
                           animate={{ opacity: 1, x: 0 }}
                           onClick={confirmTime}
-                          className="absolute inset-y-0 right-0 flex w-[46%] items-center justify-center rounded-lg bg-accent text-sm font-medium text-cream"
+                          className="absolute inset-y-0 right-0 flex w-[46%] items-center justify-center rounded-lg bg-accent text-sm font-medium text-ink"
                         >
                           Confirm
                         </motion.button>
@@ -313,7 +313,7 @@ export function BookingCalendar({
             <StepWrap key="details">
               <BackRow onClick={() => setStep("time")} label="Back to time" />
               <h4 className="mt-3 text-sm font-medium">Enter your details</h4>
-              <p className="mt-1 text-xs text-cream/50">
+              <p className="mt-1 text-xs text-ink/50">
                 We'll finalize over email in under 24 hours.
               </p>
 
@@ -367,12 +367,12 @@ export function BookingCalendar({
                 </Field>
 
                 <div className="flex items-center justify-between gap-3 pt-2">
-                  <p className="text-xs text-cream/50">
+                  <p className="text-xs text-ink/50">
                     Opens your email app to confirm.
                   </p>
                   <button
                     type="submit"
-                    className="inline-flex items-center gap-2 rounded-full bg-accent px-5 py-3 text-sm font-medium text-cream transition-transform hover:-translate-y-0.5"
+                    className="inline-flex items-center gap-2 rounded-full bg-accent px-5 py-3 text-sm font-medium text-ink transition-transform hover:-translate-y-0.5"
                   >
                     Schedule event
                   </button>
@@ -390,7 +390,7 @@ export function BookingCalendar({
                 resetLabel="Book another time"
               >
                 {selectedDate && selectedTime && (
-                  <div className="mt-6 rounded-xl border border-cream/10 bg-cream/[0.02] px-5 py-4 text-sm">
+                  <div className="mt-6 rounded-xl border border-ink/10 bg-ink/[0.02] px-5 py-4 text-sm">
                     <div className="flex items-center gap-2">
                       <CalendarIcon className="h-4 w-4 text-accent" />
                       {formatLongDate(selectedDate)}
@@ -429,7 +429,7 @@ function BackRow({ onClick, label }: { onClick: () => void; label: string }) {
   return (
     <button
       onClick={onClick}
-      className="inline-flex items-center gap-1.5 text-xs uppercase tracking-wider text-cream/60 transition-colors hover:text-accent"
+      className="inline-flex items-center gap-1.5 text-xs uppercase tracking-wider text-ink/60 transition-colors hover:text-accent"
     >
       <ArrowLeft className="h-3.5 w-3.5" />
       {label}
@@ -446,7 +446,7 @@ function Field({
 }) {
   return (
     <label className="block">
-      <span className="mb-1.5 block text-[11px] font-medium uppercase tracking-[0.15em] text-cream/60">
+      <span className="mb-1.5 block text-[11px] font-medium uppercase tracking-[0.15em] text-ink/60">
         {label}
       </span>
       {children}
@@ -455,7 +455,7 @@ function Field({
 }
 
 const inputCls =
-  "block w-full rounded-lg border border-cream/15 bg-cream/[0.03] px-3 py-2.5 text-sm text-cream placeholder:text-cream/40 transition-colors focus:border-accent focus:outline-none focus:ring-0";
+  "block w-full rounded-lg border border-ink/15 bg-ink/[0.03] px-3 py-2.5 text-sm text-ink placeholder:text-ink/40 transition-colors focus:border-accent focus:outline-none focus:ring-0";
 
 function buildMonth(monthStart: Date, today: Date, maxDate: Date) {
   const year = monthStart.getFullYear();

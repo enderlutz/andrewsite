@@ -30,7 +30,7 @@ export function ConsoleHello() {
       "font-size: 14px; color: #171717; font-weight: 600;",
     );
     console.log(
-      "%cFinance brain. Sales instinct. Army vet.",
+      "%cMilitary discipline. Finance execution. Houston-based.",
       "color: #6b6b6b;",
     );
     console.log(

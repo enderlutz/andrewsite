@@ -152,14 +152,14 @@ function Pane({
         aria-label={`Expand ${label.toLowerCase()}`}
         aria-hidden={!collapsed}
         className={cn(
-          "absolute inset-0 z-10 hidden items-center justify-center rounded-2xl border border-cream/15 bg-cream/[0.02] transition-colors",
+          "absolute inset-0 z-10 hidden items-center justify-center rounded-2xl border border-ink/15 bg-ink/[0.02] transition-colors",
           collapsed &&
-            "lg-hover:flex lg-hover:hover:border-accent lg-hover:hover:bg-cream/[0.04]",
+            "lg-hover:flex lg-hover:hover:border-accent lg-hover:hover:bg-ink/[0.04]",
         )}
       >
         <span
           className={cn(
-            "select-none font-display text-xs font-medium uppercase tracking-[0.5em] text-cream/70",
+            "select-none font-display text-xs font-medium uppercase tracking-[0.5em] text-ink/70",
             side === "left" ? "-rotate-90" : "rotate-90",
           )}
         >
@@ -175,7 +175,7 @@ function Pane({
             onDismiss();
           }}
           aria-label="Return to split view"
-          className="absolute right-3 top-3 z-20 hidden rounded-full border border-cream/20 bg-ink/70 p-1.5 text-cream/70 backdrop-blur transition-colors hover:border-accent hover:text-accent lg-hover:inline-flex"
+          className="absolute right-3 top-3 z-20 hidden rounded-full border border-ink/20 bg-ink/70 p-1.5 text-ink/70 backdrop-blur transition-colors hover:border-accent hover:text-accent lg-hover:inline-flex"
         >
           <X className="h-3 w-3" />
         </button>

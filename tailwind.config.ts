@@ -14,8 +14,10 @@ const config: Config = {
         "lg-hover": { raw: "(hover: hover) and (min-width: 1024px)" },
       },
       colors: {
-        cream: "#F7F5F0",
-        ink: "#171717",
+        // Dark theme: `cream` is the page background, `ink` is the text.
+        // Names kept for minimal churn; swap hex values to flip the whole site.
+        cream: "#171717",
+        ink: "#F7F5F0",
         accent: "#F25C29",
         accentMuted: "#E8D5C4",
       },

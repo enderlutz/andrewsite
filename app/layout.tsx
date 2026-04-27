@@ -27,9 +27,9 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Andrew Bieh-Mintah — Student Sales Professional",
+  title: "Andrew Bieh-Mintah — Finance Student & Wealth Management Intern",
   description:
-    "Finance and sales student. Personal portfolio, resume, and contact.",
+    "Houston-based finance student, wealth management intern, and U.S. Army Reserves Team Leader. Personal portfolio, resume, and contact.",
 };
 
 export default function RootLayout({

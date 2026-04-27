@@ -12,10 +12,10 @@ export function Contact() {
   return (
     <section
       id="contact"
-      className="relative overflow-hidden bg-ink text-cream"
+      className="relative overflow-hidden"
     >
       <div className="mx-auto max-w-6xl px-6 py-20 md:px-10 md:py-28">
-        <Reveal className="mb-8 text-xs font-medium uppercase tracking-[0.2em] text-cream/60">
+        <Reveal className="mb-8 text-xs font-medium uppercase tracking-[0.2em] text-ink/60">
           — Contact
         </Reveal>
 
@@ -36,7 +36,7 @@ export function Contact() {
               ))}
             </Reveal>
             <Reveal delay={0.1}>
-              <p className="mt-8 max-w-lg text-lg text-cream/75">
+              <p className="mt-8 max-w-lg text-lg text-ink/75">
                 {site.contactIntro}
               </p>
             </Reveal>
@@ -65,13 +65,13 @@ export function Contact() {
               <Magnetic>
                 <button
                   onClick={openResume}
-                  className="group flex w-full items-center justify-between rounded-2xl border border-cream/15 bg-cream/[0.02] px-5 py-4 transition-colors hover:border-accent hover:bg-cream/[0.05]"
+                  className="group flex w-full items-center justify-between rounded-2xl border border-ink/15 bg-ink/[0.02] px-5 py-4 transition-colors hover:border-accent hover:bg-ink/[0.05]"
                 >
                   <span className="flex items-center gap-3">
                     <FileText className="h-4 w-4 text-accent" />
                     <span className="text-sm">Resume (PDF)</span>
                   </span>
-                  <span className="text-xs uppercase tracking-wider text-cream/60 transition-colors group-hover:text-accent">
+                  <span className="text-xs uppercase tracking-wider text-ink/60 transition-colors group-hover:text-accent">
                     view →
                   </span>
                 </button>
@@ -82,15 +82,15 @@ export function Contact() {
 
         {/* ───── Calendar / Form pair ───── */}
         <div className="mt-20 md:mt-28">
-          <Reveal className="mb-5 flex items-center gap-3 text-xs font-medium uppercase tracking-[0.2em] text-cream/60">
-            <span className="h-px w-8 bg-cream/40" />
+          <Reveal className="mb-5 flex items-center gap-3 text-xs font-medium uppercase tracking-[0.2em] text-ink/60">
+            <span className="h-px w-8 bg-ink/40" />
             Two ways forward
           </Reveal>
           <Reveal as="h3" className="display mb-2 text-4xl md:text-6xl">
             Book a call, or <span className="italic">drop a note.</span>
           </Reveal>
           <Reveal delay={0.05}>
-            <p className="mb-8 max-w-xl text-sm text-cream/60">
+            <p className="mb-8 max-w-xl text-sm text-ink/60">
               Start typing in either one — the other folds out of the way.
             </p>
           </Reveal>
@@ -100,8 +100,8 @@ export function Contact() {
         </div>
       </div>
 
-      <div className="border-t border-cream/10">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-6 text-xs text-cream/50 md:px-10">
+      <div className="border-t border-ink/10">
+        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-6 text-xs text-ink/50 md:px-10">
           <span>
             © {new Date().getFullYear()} {site.name}
           </span>
@@ -129,13 +129,13 @@ function DirectLink({
         href={href}
         target={href.startsWith("http") ? "_blank" : undefined}
         rel={href.startsWith("http") ? "noreferrer" : undefined}
-        className="group flex items-center justify-between rounded-2xl border border-cream/15 bg-cream/[0.02] px-5 py-4 transition-colors hover:border-accent hover:bg-cream/[0.05]"
+        className="group flex items-center justify-between rounded-2xl border border-ink/15 bg-ink/[0.02] px-5 py-4 transition-colors hover:border-accent hover:bg-ink/[0.05]"
       >
         <span className="flex items-center gap-3">
           {icon}
           <span className="text-sm">{primary}</span>
         </span>
-        <span className="text-xs uppercase tracking-wider text-cream/60 transition-colors group-hover:text-accent">
+        <span className="text-xs uppercase tracking-wider text-ink/60 transition-colors group-hover:text-accent">
           {cta}
         </span>
       </a>

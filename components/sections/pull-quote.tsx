@@ -6,7 +6,7 @@ import { pullQuote, skillsMarquee } from "@/lib/content";
 
 export function PullQuote() {
   return (
-    <section className="inverted relative overflow-hidden py-28 md:py-40">
+    <section className="relative overflow-hidden py-28 md:py-40">
       {/* Single subtle marquee at the foot of the section — just enough
           motion to feel alive without competing with the quote. */}
       <Marquee
@@ -20,7 +20,7 @@ export function PullQuote() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-15%" }}
           transition={{ duration: 0.7 }}
-          className="mb-8 text-xs font-medium uppercase tracking-[0.3em] text-cream/60"
+          className="mb-8 text-xs font-medium uppercase tracking-[0.3em] text-ink/60"
         >
           — in his words
         </motion.div>

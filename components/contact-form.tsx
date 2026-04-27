@@ -37,7 +37,7 @@ export function ContactForm({ email }: { email: string }) {
   }
 
   return (
-    <div className="relative min-h-[480px] rounded-2xl border border-cream/15 bg-cream/[0.02] p-6 md:p-8">
+    <div className="relative min-h-[480px] rounded-2xl border border-ink/15 bg-ink/[0.02] p-6 md:p-8">
       <AnimatePresence mode="wait" initial={false}>
         {sent ? (
           <motion.div
@@ -108,12 +108,12 @@ export function ContactForm({ email }: { email: string }) {
             </Field>
 
             <div className="flex items-center justify-between gap-4">
-              <p className="text-xs text-cream/50">
+              <p className="text-xs text-ink/50">
                 Opens in your email app with the note pre-filled.
               </p>
               <button
                 type="submit"
-                className="group inline-flex items-center gap-2 rounded-full bg-accent px-5 py-3 text-sm font-medium text-cream transition-transform hover:-translate-y-0.5"
+                className="group inline-flex items-center gap-2 rounded-full bg-accent px-5 py-3 text-sm font-medium text-ink transition-transform hover:-translate-y-0.5"
               >
                 Send note
                 <Send className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
@@ -127,7 +127,7 @@ export function ContactForm({ email }: { email: string }) {
 }
 
 const inputCls =
-  "block w-full rounded-lg border border-cream/15 bg-cream/[0.03] px-3 py-2.5 text-sm text-cream placeholder:text-cream/40 transition-colors focus:border-accent focus:outline-none focus:ring-0";
+  "block w-full rounded-lg border border-ink/15 bg-ink/[0.03] px-3 py-2.5 text-sm text-ink placeholder:text-ink/40 transition-colors focus:border-accent focus:outline-none focus:ring-0";
 
 function Field({
   label,
@@ -138,7 +138,7 @@ function Field({
 }) {
   return (
     <label className="block">
-      <span className="mb-1.5 block text-[11px] font-medium uppercase tracking-[0.15em] text-cream/60">
+      <span className="mb-1.5 block text-[11px] font-medium uppercase tracking-[0.15em] text-ink/60">
         {label}
       </span>
       {children}

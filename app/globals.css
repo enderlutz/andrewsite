@@ -3,8 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --cream: #f7f5f0;
-  --ink: #171717;
+  /* Dark theme — `--cream` is the page background, `--ink` is the foreground. */
+  --cream: #171717;
+  --ink: #f7f5f0;
   --accent: #f25c29;
 }
 
@@ -37,10 +38,10 @@ body {
   color: var(--cream);
 }
 
-/* Custom scrollbar — thin + cream tint, accent on hover */
+/* Custom scrollbar — thin light thumb on dark page, accent on hover */
 html {
   scrollbar-width: thin;
-  scrollbar-color: rgba(23, 23, 23, 0.18) transparent;
+  scrollbar-color: rgba(247, 245, 240, 0.22) transparent;
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -50,7 +51,7 @@ html {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(23, 23, 23, 0.18);
+  background: rgba(247, 245, 240, 0.22);
   border-radius: 5px;
   border: 2px solid transparent;
   background-clip: padding-box;

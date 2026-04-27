@@ -54,7 +54,7 @@ export function Moments() {
                 label={m.caption}
                 className={`${layout.aspect} w-full`}
               />
-              <figcaption className="absolute inset-x-0 bottom-0 translate-y-full bg-gradient-to-t from-ink/90 to-transparent p-4 text-xs font-medium uppercase tracking-[0.15em] text-cream transition-transform duration-500 group-hover:translate-y-0">
+              <figcaption className="absolute inset-x-0 bottom-0 translate-y-full bg-gradient-to-t from-cream/90 to-transparent p-4 text-xs font-medium uppercase tracking-[0.15em] text-ink transition-transform duration-500 group-hover:translate-y-0">
                 {m.caption}
               </figcaption>
             </motion.figure>
